@@ -1,15 +1,15 @@
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Pokemon_page/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Pokemon_page from './pages/Pokemon_page.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Pokemon_page
   }
 }
 </script>
@@ -20,7 +20,21 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color:white;
+  background-image: url("https://wallpapercave.com/wp/wp3170170.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover; 
+  height: 100vh;
+  display: flex;
+  background-attachment: fixed;
+  align-items: center;
+ 
+  
 }
+
+
 </style>
+
+
+
